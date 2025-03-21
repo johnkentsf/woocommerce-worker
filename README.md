@@ -19,17 +19,17 @@ The worker is designed to work with WordPress Playground (https://playground.wor
 To test a specific WooCommerce release:
 
 ```
-https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.your-subdomain.workers.dev/?release=8.0.0
+https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.briancoords-com.workers.dev/?release=9.8.0-beta.1
 ```
 
-Replace `8.0.0` with any WooCommerce version you want to test. The release must match the tag on Github.
+Replace `9.8.0-beta.1` with any WooCommerce version you want to test. The release must match the tag on Github.
 
 ### Default Release
 
 If no release is specified, the worker will use 'latest':
 
 ```txt
-https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.your-subdomain.workers.dev
+https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.briancoords-com.workers.dev
 ```
 
 ### Direct JSON Access
@@ -37,7 +37,7 @@ https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.your-
 You can also access the JSON blueprint directly:
 
 ```txt
-https://woocommerce-worker.your-subdomain.workers.dev/?release=8.0.0
+https://woocommerce-worker.briancoords-com.workers.dev/?release=9.8.0-beta.1
 ```
 
 ## Deployment
