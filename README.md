@@ -22,6 +22,12 @@ To test a specific WooCommerce release:
 https://playground.wordpress.net/?blueprint-url=https://woocommerce-worker.briancoords-com.workers.dev/?release=9.8.0-beta.1
 ```
 
+JK-Version:
+
+```
+https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fwoocommerce-worker.localhostsf.workers.dev%2F%3Frelease%3D9.8.0-beta.1
+```
+
 Replace `9.8.0-beta.1` with any WooCommerce version you want to test. The release must match the tag on Github.
 
 ### Default Release
