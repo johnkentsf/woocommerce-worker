@@ -20,9 +20,9 @@ const template = {
       step: "setSiteOptions",
       options: {
         blogname: "WooCommerce",
-        woocommerce_store_city: "Los Angeles",
+        woocommerce_store_city: "San Francisco",
         woocommerce_store_address: "123 Main St",
-        woocommerce_store_postcode: "90038",
+        woocommerce_store_postcode: "94123",
         woocommerce_default_country: "United States",
         woocommerce_onboarding_profile: {
           skipped: true,
